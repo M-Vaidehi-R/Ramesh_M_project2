@@ -1,5 +1,90 @@
-#container
+.container
 {
-    width: 700px;
-    margin: 0 auto;
+    padding:2em;
+    margin: 2em;
 }
+
+h1{
+    position:absolute;
+    margin-top:9em;
+    margin-left:7em;
+    font-size: 65px;
+    color: white;
+}
+
+p {
+    font-family: 'Zilla Slab', serif;
+    font-size: 22pt;
+    margin-right: 3em;
+    margin-left:3em;
+    line-height: 1.39em;
+}
+
+header img{
+ width:100%;
+ box-shadow: saddlebrown 0px 20px 18px;
+}
+hr{
+    width: auto;
+    height:2px;
+    color:black;
+    margin-bottom:5em;
+    margin-top: 0em;
+    box-shadow: grey 0px 5px 5px;
+
+
+}
+figcaption{
+    text-align: center;
+    font-family: 'Zilla Slab', serif;
+    font-size: large;
+
+}
+
+h2{
+    font-size: xx-large;
+    font-family: 'Zilla Slab', serif;
+    font-style: italic;
+    margin-left:3em ;
+}
+.dropCap {
+    font-size: 100px;
+    line-height: 70px;
+    margin: 8px 10px 0px 0px;
+    float: left;
+
+}
+
+.intro {
+    margin: 100px;
+    font-size: 18pt;
+    margin-left: 7em;
+    margin-right: 7em;
+    margin-bottom: 3em;
+}
+
+
+
+.size_img-left {
+    width:70%;
+    height:auto;
+    margin-left:7em;
+    border:saddlebrown solid 7px;
+}
+
+.size_img-rt {
+    width:70%;
+    height:auto;
+    margin-left:7em;
+    border:saddlebrown solid 7px;
+}
+
+.grid_main{
+ display:grid;
+ grid-template-columns: 1fr 1fr;
+ column-gap: 1em;
+}
+
+
+
+
